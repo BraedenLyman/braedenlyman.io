@@ -10,119 +10,123 @@
     <title>Braeden Lyman - Developer</title>
 </head>
 <body>
-    <main >    
-      <nav>
-        <img class="headerLogo" src="images/logo.png" alt="braedenLogo">  
-        <ul>
-          <li>1. <a href="#about">About</a></li>
-          <li>2. <a href="#experience">Experience</a></li>
-          <li>3. <a href="#work">Work</a></li>
-          <li>4. <a href="#contact">Contact</a></li>
-          <li class="resumeLink"><a href="images/resume.pdf" target="_blank">Resume</a></li>
-        </ul>
+  <main>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img class="headerLogo img-fluid" src="images/logo.png" alt="braedenLogo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                      <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#work">Work</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                      <li class="nav-item"><a class="nav-link" href="images/resume.pdf" target="_blank">Resume</a></li>
+                  </ul>
+              </div>
+          </div>
       </nav>
-
-      <section class="mainSection">
-        <p>Hello! My Name is</p>
-        <h1>Braeden Lyman</h1>
-        <p id="study">Future AdvDip | Web Developer | Mobile Developer</p>
-        <p id="niceToMeetYou">Nice to meet you!</p>
-        <p class="aboutMeTagLine">I'm Braeden Lyman, a passionate <strong>Software Developer</strong> based in Smithville, Ontario.</p>
-        <p class="aboutMeTagLine">Currently, I am a second-year Computer Systems Technician student at Mohawk College, focusing on Software Development. I have a solid foundation in <strong>Front-End Development</strong>, particularly in <strong>HTML and CSS</strong>, and I’m always eager to expand my skill set.</p>
-        <a class="gitHubProjectsLink" href="https://github.com/BraedenLyman" target="_blank"><p>Check Out My GitHub Projects!</p></a>
-      </section>
-
-      <section id="about" class="aboutMe">
+      <div class="mainDiv container mt-4 mb-4">
+          <p>Hello! My Name is</p>
+          <h1>Braeden Lyman</h1>
+          <p id="study">Future AdvDip | Web Developer | Mobile Developer</p>
+          <p id="niceToMeetYou">Nice to meet you!</p>
+          <p class="aboutMeTagLine">I'm Braeden Lyman, a passionate <strong>Software Developer</strong> based in Smithville, Ontario.</p>
+          <p class="aboutMeTagLine">Currently, I am a second-year Computer Systems Technician student at Mohawk College, focusing on Software Development. I have a solid foundation in <strong>Front-End Development</strong>, particularly in <strong>HTML and CSS</strong>, and I’m always eager to expand my skill set.</p>
+          <a class="gitHubProjectsLink" href="https://github.com/BraedenLyman" target="_blank"><p>Check Out My GitHub Projects!</p></a>
+      </div>
+      <div id="about" class="aboutMe container mt-4">
         <div class="heading">
           <h2>01. About Me</h2>
           <div class="line"></div>
         </div>
+        
+        <img src="images/mePhoto.jpg" alt="mePhoto" class="img-fluid">
+        
         <div class="aboutMeText">
-          <p>My journey in technology began with a desire to create engaging and user-friendly web applications. I’ve had the opportunity to apply my skills as a React-Native Co-Op Developer, where I collaborated with a talented team to build mobile applications that prioritize UI/UX design. I take pride in my attention to detail and my ability to follow designs meticulously, ensuring that each project not only meets but exceeds expectations.</p>
-          <p>I thrive in collaborative environments and enjoy working on team-based projects where I can contribute my problem-solving skills and creativity. Whether I’m coding or designing, I aim to deliver quality work that resonates with users.</p>
-          <p>In addition to my technical abilities, I bring a mature and dependable demeanor to every task. I believe that my positive attitude and enthusiasm make me an asset to any team.</p>
-          <p>When I'm not coding, you can find me exploring new technologies, diving into design projects, or enjoying the great outdoors.</p>
-          <p>Feel free to connect with me on GitHub or LinkedIn. I'm always open to new opportunities and collaborations!</p>
-          <p>My skills are not limited to this list!</p>
+            <p>My journey in technology began with a desire to create engaging and user-friendly web applications. I’ve had the opportunity to apply my skills as a React-Native Co-Op Developer, where I collaborated with a talented team to build mobile applications that prioritize UI/UX design. I take pride in my attention to detail and my ability to follow designs meticulously, ensuring that each project not only meets but exceeds expectations.</p>
+            <p>I thrive in collaborative environments and enjoy working on team-based projects where I can contribute my problem-solving skills and creativity. Whether I’m coding or designing, I aim to deliver quality work that resonates with users.</p>
+            <p>In addition to my technical abilities, I bring a mature and dependable demeanor to every task. I believe that my positive attitude and enthusiasm make me an asset to any team.</p>
+            <p>When I'm not coding, you can find me exploring new technologies, diving into design projects, or enjoying the great outdoors.</p>
+            <p>Feel free to connect with me on GitHub or LinkedIn. I'm always open to new opportunities and collaborations!</p>
+            <p>My skills are not limited to this list!</p>
         </div>
-        <img  src="images/mePhoto.jpg" alt="mePhoto">
-        <ul class="listGrid">
-          <li>HTML & CSS</li>
-          <li>JavaScript</li>
-          <li>React-Native</li>
-          <li>Figma Design</li>
-          <li>Canva Design</li>
-          <li>WordPress</li>
+        
+        <ul class="listGrid row">
+            <li class="col-6 col-md-4">HTML & CSS</li>
+            <li class="col-6 col-md-4">JavaScript</li>
+            <li class="col-6 col-md-4">React-Native</li>
+            <li class="col-6 col-md-4">Figma Design</li>
+            <li class="col-6 col-md-4">Canva Design</li>
+            <li class="col-6 col-md-4">WordPress</li>
         </ul>
-      </section>
-
-      <section id="experience" class="experience">
+      </div>
+      
+      <div id="experience" class="experience container mt-4">
         <div class="heading">
-          <h2>02. I've worked with</h2>
-          <div class="line"></div>
+            <h2>02. I've worked with</h2>
+            <div class="line"></div>
         </div>
 
         <div class="experienceContent">
           <div class="experiences">
-            <h3>React-Native Developer Co-Op <Strong>@Haletale</Strong></h3>
+            <h3>React-Native Developer Co-Op <strong>@Haletale</strong></h3>
             <h4>February 2024 - April 2024</h4>
-            <ul class="listGrid2">
-              <li>Work in a team environment to develop a mobile friendly application.</li>
-              <li>Actively learn React-Native using Redux-Toolkit to build mobile friendly pages, and learn new languages quickly and efficiently within a short period of time.</li>
-              <li>Develop mobile pages that replicate the UI/UX design on Figma.</li>
+            <ul class="listGrid2 row">
+                <li class="col-12">Work in a team environment to develop a mobile friendly application.</li>
+                <li class="col-12">Actively learn React-Native using Redux-Toolkit to build mobile friendly pages, and learn new languages quickly and efficiently within a short period of time.</li>
+                <li class="col-12">Develop mobile pages that replicate the UI/UX design on Figma.</li>
             </ul>
           </div>
         </div>
-      </section>
+      </div>
 
-      <section id="work" class="work">
+      <div id="work" class="work container mt-4">
         <div class="heading">
-          <h2>03. Some of my projects</h2>
-          <div class="line"></div>
+            <h2>03. Some of my projects</h2>
+            <div class="line"></div>
         </div>
         <div class="projects">
-          <div class="titleText">
-            <h4>Featured Project</h4>
-            <h3>Lyman Rentals</h3>
-          </div>
           <div class="photoContainer">
+            <div class="titleText">
+                <h4>Featured Project</h4>
+                <h3>Lyman Rentals</h3>
+            </div>
             <a href="https://www.lymanrentals.ca/" target="_blank">
-              <img src="images/lymanRentals.png" alt="lymanRentals" class="overlayImage">
+                <img src="images/lymanRentals.png" alt="lymanRentals" class="overlayImage img-fluid">
             </a>
-            <p class="overlayText">A rental website that takes pride in renting out multiple different items such as Whiskey Barrel Tables, Benches, and much more for any occasion. Specializes in <Strong>Wedding Rentals</Strong></p>
+            <p class="overlayText">A rental website that takes pride in renting out multiple different items such as Whiskey Barrel Tables, Benches, and much more for any occasion. Specializes in <strong>Wedding Rentals</strong></p>
             <a href="https://www.lymanrentals.ca/" target="_blank" class="fa fa-google" id="icon"></a>
           </div>
         </div>
-      </section>
+      </div>
 
-      <section id="contact" class="contact">
+      <div id="contact" class="contact container mt-4">
         <p id="whatsNext">4. What's next?</p>
         <h2 id="getInTouch">Get In Touch</h2>
-        
         <div class="contactText">
-            <p>My inboxes are always open if you hvae any questions or just want to say Hello!</p>
-            <p>Let's get in touch if you have any roles that are relevent for me!</p>
-            <a href="https://github.com/BraedenLyman" target="_blank" class="fa fa-github"><p>GitHub</p></a>
-            <a href="https://www.linkedin.com/in/braedenlyman/" target="_blank" class="fa fa-linkedin"><p>LinkedIn</p></a>
-            <a href="https://www.facebook.com/brae.lyman.1" target="_blank" class="fa fa-facebook"><p>Facebook</p></a>
-            <a href="https://www.instagram.com/braedenlyman/" target="_blank" class="fa fa-instagram"><p>Instagram</p></a>
-            <a href="mailto:braedenlyman7@gmail.com" target="_blank" class="fa fa-google"><p>Email</p></a>
+          <p>My inboxes are always open if you have any questions or just want to say Hello!</p>
+          <p>Let's get in touch if you have any roles that are relevant for me!</p>
+          <a href="https://github.com/BraedenLyman" target="_blank" class="fa fa-github"><p>GitHub</p></a>
+          <a href="https://www.linkedin.com/in/braedenlyman/" target="_blank" class="fa fa-linkedin"><p>LinkedIn</p></a>
+          <a href="https://www.facebook.com/brae.lyman.1" target="_blank" class="fa fa-facebook"><p>Facebook</p></a>
+          <a href="https://www.instagram.com/braedenlyman/" target="_blank" class="fa fa-instagram"><p>Instagram</p></a>
+          <a href="mailto:braedenlyman7@gmail.com" target="_blank" class="fa fa-google"><p>Email</p></a>
         </div>
-        
-      </section>
-
-    </main>
-    <footer>
-      <div id="footerLink">
-        <p>Designed & Built by Braeden Lyman</p>
-        <p id="copyRight">&#xA9; 2024 Braeden Lyman </p>
       </div>
-    </footer>
-    
-    <script>
-      document.getElementById('footerLink').addEventListener('click', function() {
-        window.open('https://github.com/BraedenLyman/braedenlyman.io', '_blank');
-      });
-    </script>
+  </main>
+  <footer>
+    <div id="footerLink">
+      <p>Designed & Built by Braeden Lyman</p>
+      <p id="copyRight">&#xA9; 2024 Braeden Lyman </p>
+    </div>
+  </footer>
+  <script>
+    document.getElementById('footerLink').addEventListener('click', function() {
+      window.open('https://github.com/BraedenLyman/braedenlyman.io', '_blank');
+    });
+  </script>
 </body>
 </html>
